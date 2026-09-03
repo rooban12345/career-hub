@@ -1,0 +1,224 @@
+/* ==============================
+   GENERAL STYLES
+   ============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+    min-height: 100vh;
+}
+
+
+/* ==============================
+   HEADER
+   ============================== */
+
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #dbeafe;
+}
+
+
+/* ==============================
+   MAIN CONTAINER
+   ============================== */
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ==============================
+   HEADINGS
+   ============================== */
+
+h2 {
+    color: #172554;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #667eea;
+}
+
+
+/* ==============================
+   FORM LABELS
+   ============================== */
+
+label {
+    font-weight: bold;
+    color: #374151;
+}
+
+
+/* ==============================
+   INPUTS
+   ============================== */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+/* Input Focus */
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+
+/* ==============================
+   RADIO BUTTONS
+   ============================== */
+
+input[type="radio"] {
+    margin: 10px 5px 10px 0;
+}
+
+
+/* ==============================
+   CHECKBOXES
+   ============================== */
+
+input[type="checkbox"] {
+    margin: 8px 8px 8px 0;
+}
+
+
+/* ==============================
+   BUTTONS
+   ============================== */
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+
+/* Register Button */
+
+button[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+/* Reset Button */
+
+button[type="reset"] {
+    background-color: #ef4444;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #dc2626;
+    transform: translateY(-2px);
+}
+
+
+/* ==============================
+   TEXTAREA
+   ============================== */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   HORIZONTAL LINE
+   ============================== */
+
+hr {
+    border: none;
+}
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+   ============================== */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
